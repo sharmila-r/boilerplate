@@ -3,7 +3,7 @@ services:
   frontend:
     build:
       context: .
-      dockerfile: frontend/Dockerfile
+      dockerfile: client/Dockerfile
     ports:
       - "3000:80"
     depends_on:
